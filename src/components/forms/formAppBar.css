@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.new-registered{
+    background-color: #ffffff;
+    color: #808080;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.new-registered__registered, .btn-logout__span{
+    padding-left: 10px;
+}
+
+.btn-logout{
+    color: #ff0000;
+    background-color: #ffffff;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
